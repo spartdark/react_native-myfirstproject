@@ -1,3 +1,5 @@
+import { Contador } from "./components/Contador";
+import { Funciones } from "./typescript/Funciones";
 import { TiposBasicos } from "./typescript/TiposBasicos";
 
 
@@ -7,7 +9,9 @@ import { TiposBasicos } from "./typescript/TiposBasicos";
 
 <h1>Introduccion a TS - React</h1>
 <hr></hr>
-<TiposBasicos></TiposBasicos>
+{/* <Funciones/> */}
+<Contador/>
+
 
     </div>
   )
